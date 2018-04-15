@@ -1,5 +1,9 @@
 # Production Ready Docker Container for Tensorflow Serving
 
+## Overview
+
+This is the code for [this](https://youtu.be/HhqhFbwiaig) video on Youtube by Siraj Raval. 
+
 Note: The latest image tagged with :optimized is a highly optimized version consuming only 300 MBs and optimized to use AVX and SSE instruction sets. 
 
 TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments. It handles the complete life-cycle of ML models in production. This docker image should significantly reduce the time required to take Tensorflow models from research bench to production.
@@ -91,3 +95,7 @@ A much simpler code is provided here. Run it as:
 ```sh
 $ python sample_client.py
 ```
+
+## Credits
+
+Credits for this video go to [amiyapatanaik](https://github.com/amiyapatanaik/tensorflow-serving-docker-image). I've merely created a wrapper to get people started
